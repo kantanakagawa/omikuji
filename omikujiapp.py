@@ -1,8 +1,10 @@
 from unittest import result
+import random
 
+omikuji=["大吉","吉","凶","中吉"]
 
-omikuji=["大吉","吉","凶"]
+index=random.randint(0,3)
 
-result=omikuji[0]
+omikuji[index]
 
-print(f"今日の運勢は、、、{result}")
+print(f"今日の運勢は、、、{omikuji[index]}")
